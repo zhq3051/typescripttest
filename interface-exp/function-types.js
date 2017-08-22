@@ -8,4 +8,9 @@ mySearch = function (source, substring) {
 // mySearch1 = function(src: string, sub: string) {
 //     let result = src.search(sub);
 //     return "wer";
-// } 
+// }
+var mySearch2 = function (source, substring) {
+    var result = source.search(substring);
+    return result > 1;
+};
+console.log(mySearch2('this is a world', 'world1'));
