@@ -1,0 +1,20 @@
+{
+  "name": "typescripttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhq3051/typescripttest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhq3051/typescripttest/issues"
+  },
+  "homepage": "https://github.com/zhq3051/typescripttest#readme"
+}
