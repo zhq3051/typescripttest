@@ -1,5 +1,5 @@
 "use strict";
-function getCounter() {
+function getCounter1() {
     var counter = function (st) { };
     counter.interval = 30;
     counter.reset = function () {

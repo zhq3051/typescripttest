@@ -4,12 +4,18 @@ interface Counter {
     reset(): void;
 }
 
-function getCounter1(): Counter {
-    let counter = <Counter> function(st: number) {};
+function getCounter(): Counter {
+    let counter = <Counter> function(st: number) {
+    };
     counter.interval = 30;
     counter.reset = function(){
-
+        counter.interval = 0;
     }
 
     return counter;
 }
+
+let c = getCounter();
+c(10);
+c.reset();
+c.interval = 5;

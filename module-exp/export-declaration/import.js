@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ZipCodeValidator_1 = require("./ZipCodeValidator");
+var ZipCodeValidator_2 = require("./ZipCodeValidator");
+var zdas = require("./ZipCodeValidator");
+var ZipCodeValidator_3 = require("./ZipCodeValidator");
+var myvalidator = new ZipCodeValidator_1.ZipCodeValidator();
+console.log(myvalidator.isAcceptable('tttttt'));
+var myzd = new ZipCodeValidator_2.ZipCodeValidator();
+console.log(myzd.isAcceptable('50000'));
+var myaszd = new zdas.ZipCodeValidator();
+console.log(myaszd.isAcceptable('zdasszdaszdas'));
+var df = new ZipCodeValidator_3.default();
+console.log(df.isAcceptable("66666"));
